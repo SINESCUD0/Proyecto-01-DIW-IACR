@@ -12,3 +12,13 @@ o Acuerdo de París --> Rafa (proyecto-01-14 al proyecto-01-17)
 Hacer entre 2 o 3 html por tema
 
 Faltaria por hacer 1 html que se veran a lo largo del proyecto
+
+Relacion entre los htmls:
+
+HTML Principar Cambio Climatico:
+
+-HTML KIOTO (no tiene acceso a los otros HTML, es decir, solo tiene acceso al Cambio Climatico)
+
+-HTML DOHA (no tiene acceso a los otros HTML, es decir, solo tiene acceso al Cambio Climatico)
+
+-HTML PARIS (no tiene acceso a los otros HTML, es decir, solo tiene acceso al Cambio Climatico)
