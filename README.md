@@ -15,10 +15,12 @@ Faltaria por hacer 1 html que se veran a lo largo del proyecto
 
 Relacion entre los htmls:
 
-HTML Principar Cambio Climatico:
+HTML Principar Cambio Climatico (tiene acceso a todos los htmls):
 
 -HTML KIOTO (no tiene acceso a los otros HTML, es decir, solo tiene acceso al Cambio Climatico)
 
 -HTML DOHA (no tiene acceso a los otros HTML, es decir, solo tiene acceso al Cambio Climatico)
 
 -HTML PARIS (no tiene acceso a los otros HTML, es decir, solo tiene acceso al Cambio Climatico)
+
+NO SE PODRA USAR EL IFRAME
