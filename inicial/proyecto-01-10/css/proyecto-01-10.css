@@ -1,5 +1,6 @@
-body, html{
-	height: 99.7%;
+html, body{
+	height: 98%;
+	width: 99%;
 	padding: 0;
 	margin: 0;
 }
@@ -12,9 +13,8 @@ body {
 	  	'nav nav'
 	  	'aside main'
 	  	'footer footer';
-  	grid-template-rows: 15% 7% 65% 10%;
+  	grid-template-rows: 10% 7% 65% 12%;
   	grid-template-columns: 17% auto;
-
   	gap: 10px;
   	padding: 10px;
 
@@ -27,30 +27,52 @@ header{
 nav{
 	background-color: rosybrown;
 	grid-area: nav;
+
+	display: grid;
+	grid-template-areas: 'a1 a2 a3 a4';
 }
 menu{
 	background-color: greenyellow;
 	grid-area: menu;
 }
 main{
-	background-color: darkorange;
+	background-color: darkolivegreen;
 	grid-area: main;
+}
+
+section, article{
+	height: 100%;
 }
 aside{
 	background-color: purple;
 	grid-area: aside;
 }
 footer{
-	background-color: lawngreen;
+	background-color: mediumseagreen;
 	grid-area: footer;
 }
 
 
-h1#titulo{
+p#titulo, p#nombre{
 	margin: 0;
 	padding: 0;
-	font-size: 300%;
 	text-align: center;
 	position: relative;
-	top: 50%;
+	top: 50%;	
+}
+p#articulo{
+	margin: 0;
+	padding: 0;
+	text-indent: 100px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+
+
+a{
+	grid-area: a1 a2 a3 a4;
+	text-align: center;
+	position: relative;
+	top: 25%;
 }
