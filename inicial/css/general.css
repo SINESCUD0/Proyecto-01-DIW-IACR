@@ -1,19 +1,29 @@
 @media(width < 400px){
-
+  font-family: Calibri;
+  font-size: 6px;
+  color: red;
 }
 
 @media(400px <= width <= 800px){
-
+  font-family: Cambria;
+  font-size: 8px;
+  color: blue;
 }
 
 @media(801px <= width <= 1200px){
-
+  font-family: Comics Sans MS;
+  font-size: 10px;
+  color: green;
 }
 
 @media(1201px <= width <= 1600px){
-
+  font-family: Times New Roman;
+  font-size: 12px;
+  color: yellow;
 }
 
 @media(width > 1600px){
-
+  font-family: Courier New;
+  font-size: 14px;
+  color: orange;
 }
