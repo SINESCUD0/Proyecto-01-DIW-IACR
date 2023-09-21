@@ -1,1 +1,82 @@
+.w3-border-right {
+    border-right: 1px solid #ccc!important;
+}
+.w3-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.w3-btn, .w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
+@media(width > 1600px){
+    body{
+        font-family: "Courier New";
+        font-size: 14px;
+        color: orange;
+    }
+}
+
+@media(1201px <= width <= 1600px){
+    body{
+        font-family: "Times New Roman";
+        font-size: 12px;
+        color: yellow;
+    }
+}
+
+@media(801px <= width <= 1200px){
+    body{
+        font-family: "Comic Sans MS";
+        font-size: 10px;
+        color: green;
+    }
+}
+
+@media(400px <= width <= 800px){
+    body{
+        font-family: Cambria;
+        font-size: 8px;
+        color: blue;
+    }
+}
+
+@media(width < 400px){
+    body{
+        font-family: Calibri;
+        font-size: 6px;
+        color: red;
+    }
+}
