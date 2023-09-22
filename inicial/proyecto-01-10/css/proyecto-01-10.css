@@ -81,3 +81,10 @@ a{
 	position: relative;
 	top: 25%;
 }
+
+
+@media (min-width: 400px) and (max-width: 800px){
+	main{
+		background-color: red;
+	}
+}
