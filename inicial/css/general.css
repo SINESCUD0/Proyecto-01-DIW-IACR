@@ -1,29 +1,38 @@
-@media(width < 400px){
-  font-family: Calibri;
-  font-size: 6px;
-  color: red;
+body{
+        font-family: "Calibri";
+        font-size: 6pt;
+        color: red;
+    }
+
+
+@media( 400px <= width <= 800px ){
+    body{
+        font-family: "Cambria";
+        font-size: 8pt;
+        color: blue;
+    }
 }
 
-@media(400px <= width <= 800px){
-  font-family: Cambria;
-  font-size: 8px;
-  color: blue;
+@media( 800px < width <= 1200px ){
+    body{
+        font-family: "Comic Sans MS";
+        font-size: 10pt;
+        color: green;
+    }
 }
 
-@media(801px <= width <= 1200px){
-  font-family: "Comic Sans MS";
-  font-size: 10px;
-  color: green;
+@media( 1200px < width <= 1600px ){
+    body{
+        font-family: "Times New Roman";
+        font-size: 12pt;
+        color: yellow;
+    }
 }
 
-@media(1201px <= width <= 1600px){
-  font-family: "Times New Roman";
-  font-size: 12px;
-  color: yellow;
-}
-
-@media(width > 1600px){
-  font-family: "Courier New";
-  font-size: 14px;
-  color: orange;
+@media( 1600px < width ){
+    body{
+        font-family: "Courier New";
+        font-size: 14pt;
+        color: orange;
+    }
 }
