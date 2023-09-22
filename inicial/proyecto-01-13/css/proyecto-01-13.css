@@ -1,83 +1,154 @@
 html, body{
-        height: 98%;
-        width: 99%;
-        padding: 0;
-        margin: 0;
+	height: 98%;
+	width: 99%;
+	padding: 0;
+	margin: 0;
 }
 
 body {
-        background-color: dimgray;
-        display: grid;
-        grid-template-areas:
-                'header header'
-                'nav nav'
-                'aside main'
-                'footer footer';
-        grid-template-rows: 10% 7% 65% 12%;
-        grid-template-columns: 17% auto;
-        gap: 10px;
-        padding: 10px;
+	background-color: dimgray;
+  	display: grid;
+  	grid-template-areas:
+	  	'header header'
+	  	'nav nav'
+	  	'aside main'
+	  	'footer footer';
+  	grid-template-rows: 10% 7% 65% 12%;
+  	grid-template-columns: 17% auto;
+  	gap: 10px;
+  	padding: 10px;
 
 }
 
 header{
-        background-color: red;
-        grid-area: header;
+	background-color: red;
+	grid-area: header;
 }
 nav{
-        background-color: rosybrown;
-        grid-area: nav;
+	background-color: rosybrown;
+	grid-area: nav;
 
-        display: grid;
-        grid-template-areas: 'a1 a2 a3 a4';
+	display: grid;
+	grid-template-areas: 'a1 a2 a3 a4';
 }
 menu{
-        background-color: greenyellow;
-        grid-area: menu;
+	background-color: greenyellow;
+	grid-area: menu;
 }
 main{
-        background-color: darkolivegreen;
-        grid-area: main;
+	background-color: darkolivegreen;
+	grid-area: main;
 }
 
 section, article{
-        height: 100%;
+	height: 100%;
+	overflow-y: auto;
 }
 aside{
-        background-color: purple;
-        grid-area: aside;
+	background-color: purple;
+	grid-area: aside;
+
+	/*overflow: auto;*/
+	word-wrap: break-word;
+
 }
 footer{
-        background-color: mediumseagreen;
-        grid-area: footer;
+	background-color: mediumseagreen;
+	grid-area: footer;
 }
 
 
 p#titulo, p#nombre{
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        position: relative;
-        top: 50%;       
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	top: 50%;	
 }
 p#articulo{
-        text-indent: 100px;
-        letter-spacing: 1px;
-        word-spacing: 3px;
-        
-        margin: auto;
-        padding: 0;
-        width:  50%;
-        position: relative;
-        top:    7%;
+	text-indent: 100px;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	
 
+	text-align: center;
+	margin: 10%;
+	padding: 0;
+	/*width: 	50%;*/
+
+	/*
+	position: relative;
+	top: 15%;
+	*/
 }
+
+/*
+- word-wrap: break-word (probar con esto)
+- en vez position, margin (probar)
+*/
 
 
 
 a{
-        grid-area: a1 a2 a3 a4;
-        text-align: center;
-        position: relative;
-        top: 25%;
+	grid-area: a1 a2 a3 a4;
+	text-align: center;
+	position: relative;
+	top: 25%;
 }
+
+
+
+
+
+
+/*prueba*/
+@media(width < 400px){
+	body{
+		background-color: red;
+	}
+
+}
+
+@media (400px <= width <= 800px){
+  body{
+		background-color: green;
+	}
+}
+
+@media(801px <= width <= 1200px){
+  body{
+  	background-color: yellow;
+  }
+}
+
+@media(1201px <= width <= 1600px){
+  body{
+  	background-color: skyblue;
+  }
+}
+
+@media(width >= 1601px){
+  body{
+  	background-color: floralwhite;
+  }
+}
+/*
+@media(1201px <= width <= 1600px){
+  font-family: "Times New Roman";
+  font-size: 12px;
+  color: yellow;
+}
+
+@media(width > 1600px){
+  font-family: "Courier New";
+  font-size: 14px;
+  color: orange;
+}*/
+
+/*
+@media (min-width: 400px) and (max-width: 800px){
+	main{
+		background-color: red;
+	}
+}
+*/
