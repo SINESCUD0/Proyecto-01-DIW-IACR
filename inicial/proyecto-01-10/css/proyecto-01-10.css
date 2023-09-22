@@ -61,11 +61,16 @@ p#titulo, p#nombre{
 	top: 50%;	
 }
 p#articulo{
-	margin: 0;
-	padding: 0;
 	text-indent: 100px;
 	letter-spacing: 1px;
 	word-spacing: 3px;
+	
+	margin: auto;
+	padding: 0;
+	width: 	50%;
+	position: relative;
+	top: 	15%;
+
 }
 
 
