@@ -1,1 +1,115 @@
+body{
+    font-family: "Calibri";
+    font-size: 6pt;
+    color: red;
+    background-image: url(../imagenes/Kyoto_Protocol_participation_map_2010.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+.saltos{
+    margin-left: 50px;
+}
+.saltos2{
+    margin-left: 100px;
+}
+
+
+@media( 400px <= width <= 800px ){
+    body{
+        font-family: "Cambria";
+        font-size: 8pt;
+        color: blue;
+        background-image: url(../imagenes/fondos-para-páginas-web.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+@media( 800px < width <= 1200px ){
+    body{
+        font-family: "Comic Sans MS";
+        font-size: 10pt;
+        color: green;
+        background-image: url(../imagenes/paginaWeb.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+@media( 1200px < width <= 1600px ){
+    body{
+        font-family: "Times New Roman";
+        font-size: 12pt;
+        color: yellow;
+        background-image: url(../imagenes/photo-1454117096348-e4abbeba002c.jfif);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+@media( 1600px < width ){
+    body{
+        font-family: "Courier New";
+        font-size: 14pt;
+        color: orange;
+        background-image: url(../imagenes/ryan-literally-me.jpeg);
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+
+/*.w3-border-right {
+    border-right: 1px solid #ccc!important;
+}*/
+
+.w3-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: background-image;
+    position: fixed!important;
+    z-index: 1;
+    overflow: auto;
+}
+.w3-bar-block .w3-bar-item {
+    width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+}
+.w3-btn, .w3-button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+button, select {
+    background-color: transparent;
+    color: inherit;
+    text-transform: none;
+}
+.w3-btn, .w3-button {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 
