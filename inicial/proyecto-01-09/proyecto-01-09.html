@@ -7,15 +7,40 @@
     <meta name="title" content="Título de la WEB">
     <meta name="description" content="Descripción de la WEB">
     <link href="css/proyecto-01-09.css" rel="stylesheet">
-    <script src="js/practica-01-09.js" type="text/javascript"></script>
+    <script src="js/proyecto-01-09.js" type="text/javascript"></script>
 </head>
 <body>
-    <header></header>
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">☰</button>
+        <a href="../proyecto-01-06/proyecto-01-06.html" class="w3-bar-item w3-button">¿Qu&eacute; es el protocolo Kioto?</a>
+        <a href="../proyecto-01-07/proyecto-01-07.html" class="w3-bar-item w3-button">Principales caracter&iacute;sticas</a>    
+        <a href="../proyecto-01-05/proyecto-01-05.html" class="w3-bar-item w3-button">Protocolo Kioto</a>
+        <a href="../proyecto-01-09/proyecto-01-08.html" class="w3-bar-item w3-button">Los mecanismos de kioto</a>
+    </div>
+    <div class="w3-teal" name="form2">
+        <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+    </div>
+    <header>
+        <h1 id="titulo">
+            ENLACES DE INTERES
+        </h1>
+    </header>
     <nav></nav>
     <main>
         <section>
             <article>
-                <div></div>
+                <div id="texto">
+                    <div>
+                        <a href="https://www.miteco.gob.es/es/cambio-climatico/temas/el-proceso-internacional-de-lucha-contra-el-cambio-climatico/naciones-unidas/protocolo-kioto.html">
+                            Primer link
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://unfccc.int/es/kyoto_protocol">
+                            Segundo link
+                        </a>
+                    </div>
+                </div>
             </article>
         </section>
     </main>
