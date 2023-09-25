@@ -7,15 +7,38 @@
     <meta name="title" content="Título de la WEB">
     <meta name="description" content="Descripción de la WEB">
     <link href="css/proyecto-01-08.css" rel="stylesheet">
-    <script src="js/practica-01-08.js" type="text/javascript"></script>
+    <script src="js/proyecto-01-08.js" type="text/javascript"></script>
 </head>
 <body>
-    <header></header>
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">☰</button>
+        <a href="../proyecto-01-06/proyecto-01-06.html" class="w3-bar-item w3-button">¿Qu&eacute; es el protocolo Kioto?</a>
+        <a href="../proyecto-01-07/proyecto-01-07.html" class="w3-bar-item w3-button">Principales caracter&iacute;sticas</a>    
+        <a href="../proyecto-01-05/proyecto-01-05.html" class="w3-bar-item w3-button">Protocolo Kioto</a>
+        <a href="../proyecto-01-09/proyecto-01-09.html" class="w3-bar-item w3-button">Enlaces de interes</a>
+    </div>
+    <div class="w3-teal" name="form2">
+        <button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">☰</button>
+    </div>
+    <header>
+        <h1 id="titulo">LOS MECANISMOS DE KIOTO</h1>
+    </header>
     <nav></nav>
     <main>
         <section>
             <article>
-                <div></div>
+                <div id="texto">
+                    Un elemento importante del Protocolo de Kioto fue el establecimiento de mecanismos de mercado flexibles, que se basan en el comercio de permisos de emisi&oacute;n. En virtud del Protocolo, los pa&iacute;ses deben cumplir sus objetivos principalmente a trav&eacute;s de medidas nacionales. Sin embargo, el Protocolo tambi&eacute;n les ofrece un medio adicional para cumplir sus objetivos mediante tres mecanismos de mercado:
+                    <br/>
+                    <br/>
+                    <div class="saltos">
+                        &bull; Comercio Internacional de Emisiones.<br/>
+                        &bull; Mecanismo de Desarrollo Limpio (MDL).<br/>
+                        &bull; Aplicaci&oacute;n conjunta.<br/>
+                    </div>
+                    <br/>
+                    Lo ideal ser&iacute;a que estos mecanismos alentaran a que la reducci&oacute;n de los GEI comenzara donde fuera m&aacute;s eficaz en funci&oacute;n de los costos, por ejemplo, en el mundo en desarrollo. No importa d&oacute;nde se reduzcan las emisiones, siempre y cuando se eliminen de la atm&oacute;sfera. Esto tiene los beneficios paralelos de estimular las inversiones verdes en los pa&iacute;ses en desarrollo e incluir al sector privado en este esfuerzo por reducir y mantener las emisiones de GEI a un nivel seguro. Tambi&eacute;n hace que el salto, es decir, la posibilidad de saltarse el uso de la tecnolog&iacute;a m&aacute;s antigua y sucia para obtener una infraestructura y unos sistemas m&aacute;s nuevos y limpios, con evidentes beneficios a largo plazo, sea m&aacute;s econ&oacute;mico.
+                </div>
             </article>
         </section>
     </main>
