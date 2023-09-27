@@ -102,6 +102,7 @@ a{
 
 
 /*prueba*/
+/*
 @media(width < 400px){
 	body{
 		background-color: red;
@@ -132,6 +133,8 @@ a{
   	background-color: floralwhite;
   }
 }
+*/
+
 /*
 @media(1201px <= width <= 1600px){
   font-family: "Times New Roman";
