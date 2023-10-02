@@ -1,4 +1,6 @@
 # Proyecto-01-DIW//ENTREGA MIERCOLES 4 OCT
+HAY QUE ENLAZAR TODOS LOS HTMLS, ES DECIR, QUE SE PUEDA ACCEDER DESDE EL HTML KIOTO (POR EJEMPLO) AL HTML CAMBIO CLIMATICO.
+
 Cambio climático, que debe incluir información sobre:
 
 o Cambio Climático --> Carlos (proyecto-01-01 al proyecto-01-04)
