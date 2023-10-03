@@ -29,7 +29,7 @@ nav{
 	grid-area: nav;
 
 	display: grid;
-	grid-template-areas: 'a1 a2 a3 a4';
+	grid-template-areas: 'a0 a1 a2 a3 a4';
 }
 menu{
 	background-color: greenyellow;
@@ -90,7 +90,7 @@ p#articulo{
 
 
 a{
-	grid-area: a1 a2 a3 a4;
+	grid-area: a0 a1 a2 a3 a4;
 	text-align: center;
 	position: relative;
 	top: 25%;
