@@ -1,1 +1,25 @@
 
+main{
+
+    background-color: black;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+}
+#header{
+   height:2em ;
+   width: auto
+   ;
+    
+}
+#p1{
+    height: auto;
+    width: auto;
+    
+    grid-area: 1 / 2 / 2 / 4;
+
+}

@@ -1,1 +1,16 @@
 
+body{
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+}
+h1{
+
+  grid-area: 1 / 1 / 1 / 4;
+}
+
+p
