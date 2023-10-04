@@ -12,8 +12,7 @@ main{
 }
 #header{
    height:2em ;
-   width: auto
-   ;
+   width: auto;
     
 }
 #p1{
@@ -21,5 +20,4 @@ main{
     width: auto;
     
     grid-area: 1 / 2 / 2 / 4;
-
 }
