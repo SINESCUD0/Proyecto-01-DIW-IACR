@@ -32,19 +32,16 @@ nav ul
 	list-style:none;
 	margin:0px;
 	padding:0;
-    border: solid 1px violet;
     
 }
 nav li
 {
     float: left;
     padding: 0px;
-    width: 24.5%;
-    
+    width: 49.5%;
 }
 nav li a
 {
-    color:yellow;
 	display:block;
 	font-weight:normal;
 	line-height:35px;
@@ -72,9 +69,8 @@ nav li ul{
     margin:0px;
     border:0px;
     position:absolute;
-    width:15%;
+    width:30%;
     z-index:200;
-    border: solid 1px violet;
 }
 nav li:hover ul{
     display:block;  
@@ -86,7 +82,6 @@ nav li li {
     margin:0px;
     padding:0px;
     width:100%;
-    border: solid 1px violet;
 }
 nav li:hover li a{
     background:none;
@@ -121,8 +116,7 @@ section
 #arriba
 {
     height: 245px;
-    justify-content: center;
-    display: flex;
+    text-align: center;
     padding: 5px;
 }
 #bajo
@@ -144,9 +138,12 @@ footer
         font-family: "Cambria";
         font-size: 8pt;
         color: blue;
-        background-image: url(../img/fondo1.jpg);
+        background-image: url(../../img/fondo1.jpg);
         background-repeat: repeat;
         background-size: cover;
+    }
+    a{
+        color: blue;
     }
 }
 
@@ -155,9 +152,12 @@ footer
         font-family: "Comic Sans MS";
         font-size: 10pt;
         color: green;
-        background-image: url(../img/fondo2.jpg);
+        background-image: url(../../img/fondo2.jpg);
         background-repeat: repeat;
         background-size: cover;
+    }
+    a{
+        color: green;
     }
 }
 
@@ -166,9 +166,12 @@ footer
         font-family: "Times New Roman";
         font-size: 12pt;
         color: yellow;
-        background-image: url(../img/fondo3.jpeg);
+        background-image: url(../../img/fondo3.jpeg);
         background-repeat: repeat;
         background-size: cover;
+    }
+    a{
+        color: yellow;
     }
 }
 
@@ -177,8 +180,11 @@ footer
         font-family: "Courier New";
         font-size: 14pt;
         color: orange;
-        background-image: url(../img/fondo4.jpg);
+        background-image: url(../../img/fondo4.jpg);
         background-repeat: repeat;
         background-size: cover;
+    }
+    a{
+        color: orange;
     }
 }
