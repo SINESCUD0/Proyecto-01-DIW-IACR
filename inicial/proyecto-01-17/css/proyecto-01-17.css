@@ -138,7 +138,7 @@ footer
         font-family: "Cambria";
         font-size: 8pt;
         color: blue;
-        background-image: url(../../img/fondo1.jpg);
+        background-image: url(../img/fondo1.jpg);
         background-repeat: repeat;
         background-size: cover;
     }
@@ -152,7 +152,7 @@ footer
         font-family: "Comic Sans MS";
         font-size: 10pt;
         color: green;
-        background-image: url(../../img/fondo2.jpg);
+        background-image: url(../img/fondo2.jpg);
         background-repeat: repeat;
         background-size: cover;
     }
@@ -166,7 +166,7 @@ footer
         font-family: "Times New Roman";
         font-size: 12pt;
         color: yellow;
-        background-image: url(../../img/fondo3.jpeg);
+        background-image: url(../img/fondo3.jpeg);
         background-repeat: repeat;
         background-size: cover;
     }
@@ -180,7 +180,7 @@ footer
         font-family: "Courier New";
         font-size: 14pt;
         color: orange;
-        background-image: url(../../img/fondo4.jpg);
+        background-image: url(../img/fondo4.jpg);
         background-repeat: repeat;
         background-size: cover;
     }
