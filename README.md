@@ -15,7 +15,7 @@ Hacer entre 2 o 3 html por tema
 
 Relacion entre los htmls:
 
-HTML Principar Cambio Climatico (tiene acceso a todos los htmls):
+HTML Principal Cambio Climatico (tiene acceso a todos los htmls):
 
 -HTML KIOTO (no tiene acceso a los otros HTML, es decir, solo tiene acceso al Cambio Climatico)
 

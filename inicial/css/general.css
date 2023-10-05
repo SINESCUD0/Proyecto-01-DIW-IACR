@@ -1,4 +1,5 @@
 body{
+   
         font-family: "Calibri";
         font-size: 6pt;
         color: red;
@@ -11,6 +12,10 @@ body{
         font-size: 8pt;
         color: blue;
     }
+    a:link,a:visited,a:focus, a:hover, a:active{
+        color: blue;
+        text-decoration: none;
+    }
 }
 
 @media( 800px < width <= 1200px ){
@@ -18,6 +23,12 @@ body{
         font-family: "Comic Sans MS";
         font-size: 10pt;
         color: green;
+        
+    }
+
+    a:link,a:visited,a:focus, a:hover, a:active{
+        color: green;
+        text-decoration: none;
     }
 }
 
@@ -27,6 +38,10 @@ body{
         font-size: 12pt;
         color: yellow;
     }
+    a:link,a:visited,a:focus, a:hover, a:active{
+        color: yellow;
+        text-decoration: none;
+    }
 }
 
 @media( 1600px < width ){
@@ -34,5 +49,9 @@ body{
         font-family: "Courier New";
         font-size: 14pt;
         color: orange;
+    }
+    a:link,a:visited,a:focus, a:hover, a:active{
+        color: orange;
+        text-decoration: none;
     }
 }
